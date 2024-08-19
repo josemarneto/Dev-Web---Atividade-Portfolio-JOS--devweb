@@ -74,10 +74,10 @@ header nav ul li.atual a{
 	color: #ff6464;
 }
 /*============================================================
-                         Conteúdo
+                         Conteúdo - WORKS
 ==============================================================*/
-main.works {
-	margin: 0 15vw 0 15vw;
+main {
+	margin: 0 20vw 0 15vw;
 }
 main.works h1 {
 	font-size: 1.5rem;
@@ -85,7 +85,6 @@ main.works h1 {
 main.works section {
 	border-bottom: 2px solid gray;
 	padding: 0 0 50px 0;
-	font-weight: bold;
 }
 main.works section:last-child {
 	border: none;
@@ -112,4 +111,56 @@ main.works section p span {
 footer {
 	text-align: center;
 	margin: 2vw 0 2vw 0;
+} 
+footer nav ul {
+	display: flex;
+	justify-content: center; /*nunca esquecer essa sequencia: FONT AWESOME PARA USO DE ICONES*/
+}
+footer nav ul li {
+	margin: 0 10px 0 10px;
+	font-size: 1.4rem;
+}
+/*============================================================
+                     Conteúdo - WORKS
+==============================================================*/
+main section.banner {
+	display: flex;
+	margin: 3vw 0 1vw 0;
+}
+section.banner h1 {
+	font-weight: bold;
+	font-size: 2rem;
+}
+section.banner p {
+	margin: 2vw 0vw 2vw 0vw;
+}
+section.banner button {
+	background-color: #ff6464;
+	color: #ffffff;
+	padding: 10px 15px 10px 15px;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+}
+section.rt-post {
+	background: #edf7fa;
+}
+section.rt-post h2 {
+	font-size: 1.5rem;
+}
+section.rt-post ul {
+	display: flex;
+}
+section.rt-post ul li {
+	background-color: white;
+	margin: 1.5vw 1vw 1.5vw 1vw;
+	padding: 1vw 1vw 1vw 1vw;
+}
+section.rt-post ul li h3 {
+	font-weight: bold;
+	padding: 15px 10px 15px 10px;
+}
+section.rt-post ul li p {
+	display: flex;
+	margin: 2vw 0vw 2vw 0vw;
 }
