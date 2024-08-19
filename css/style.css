@@ -155,6 +155,7 @@ section.rt-post ul li {
 	background-color: white;
 	margin: 1.5vw 1vw 1.5vw 1vw;
 	padding: 1vw 1vw 1vw 1vw;
+	border-radius: 5px;
 }
 section.rt-post ul li h3 {
 	font-weight: bold;
